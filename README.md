@@ -1,24 +1,26 @@
 <img src="https://user-images.githubusercontent.com/33210124/195239245-f6c6dd95-5454-454a-8954-a2e9d7c5d184.png"><br>
-# 📰 NEWSTUDY
-##### 🏆 삼성 청년 SW 아카데미 2학기 특화 프로젝트 대전 2반 최우수상
+### 📜 Contents
+ 1. [Overview](#-overview)
+ 2. [서비스 화면](#-서비스-화면)
+ 3. [주요 기능](#-주요-기능)
+ 4. [개발 환경](#%EF%B8%8F-개발-환경)
+ 5. [시스템 아키텍처](#-시스템-아키텍처)
+ 6. [기술 특이점](#-기술-특이점)
+ 7. [기획 및 설계 산출물](#-기획-및-설계-산출물)
+ 8. [Conventions](#-conventions)
+ 9. [팀원 소개](#-팀원-소개)
 
-## ✨ Overview
 
-> 난이도에 맞는 해외 뉴스 기사를 통해 영어를 공부할 수 있는 웹 서비스
+# 📰 Overview
+> 난이도 맞춤형 해외 뉴스 기사를 통한 영어 공부 웹 서비스
+##### 🏆 삼성 청년 SW 아카데미 7기 2학기 특화 프로젝트 대전 2반 최우수상 [[발표영상]](https://youtu.be/bFuVDd9RNlY)
+##### 🏆 삼성 청년 SW 아카데미 7기 2학기 특화 프로젝트 UCC경진대회 입상 [[UCC]](https://www.youtube.com/watch?v=7CpzMz1BLAw&ab_channel=yoonseokhan) 
+##### ✨ NEWSTUDY의 모토 - `폼생폼사, 간살간죽`
 
-## ✨ [UCC](https://www.youtube.com/watch?v=7CpzMz1BLAw&ab_channel=yoonseokhan) 
-##### 🏆 삼성 청년 SW 아카데미 2학기 특화 프로젝트 UCC경진대회 입상
+# 👀 서비스 화면
+> ✨ 모든 페이지 `다크모드`, `모바일(아이폰 12 Pro 기준 max-width:480px)` 지원
 
-
-
-## ✨ NEWSTUDY의 모토
-
-`폼생폼사, 간살간죽`
-
-## 👀 NEWSTUDY 서비스 화면
-### ✨ 모든 페이지 `다크모드`, `모바일(아이폰 12 Pro 기준 max-width:480px)` 지원
-
-### 온보딩
+#### 온보딩
 - `fullpage`를 적용한 온보딩
 - 지구본 상호작용
 - 모바일 버전에서는 클릭을 통한 fullpage 동작
@@ -27,14 +29,14 @@
 <img src="https://user-images.githubusercontent.com/33210124/193836099-d01808f4-f0f5-4f80-87d3-c78a5e8a5af3.gif" width="20%">
 </div>
 
-### 회원가입 & 로그인 & 로그아웃
+#### 회원가입 & 로그인 & 로그아웃
 - `구글 메일 인증`을 통한 유저 회원가입/로그인
 <div>
 <img src="https://user-images.githubusercontent.com/33210124/193836111-c600761d-abc2-4007-a4b8-309e97a6ab7a.gif" width="75%">
 <img src="https://user-images.githubusercontent.com/33210124/193836125-0ec0632b-ccd0-4d4c-b8e2-05cd1b7081a9.gif" width="20%">
 </div>
   
-### 마이페이지
+#### 마이페이지
 - `프로필 이미지 변경`
 - 내가 `스크랩한 기사, 나만의 단어장, 내가 획득한 뱃지, 내 관심 카테고리` 표현
 <div>
@@ -42,7 +44,7 @@
 <img src="https://user-images.githubusercontent.com/33210124/195591865-c16d131c-3ada-4bd9-8221-69b4e520de00.gif" width="75%">
 </div>
 
-### 배지 획득
+#### 배지 획득
 - `출석`, `레벨`, `게임`, `단어장 추가`, `기사 스크랩` 에 대한 배지 부여
 <div>
 <img src="https://user-images.githubusercontent.com/33210124/194193047-55ceea30-b72c-4e22-aee6-829dca7060ce.png" width="75%">
@@ -53,7 +55,7 @@
 <img src="https://user-images.githubusercontent.com/33210124/194193046-157f5d78-8d46-47c3-9e81-1d075398fbc7.png" width="20%">
 </div>
 
-### 랜딩 (HOME)
+#### 랜딩 (HOME)
 - 사용자의 카테고리, 레벨에 따른 `사용자 추천(USER FIT) 기사` 제공
 - 하루 중 `가장 많은 조회수를 기록한 기사(HOT TOPIC)` 제공
 - 하루의 뉴스 기사에서 추출한 `데일리 워드 클라우드` 제공
@@ -63,7 +65,7 @@
 <img src="https://user-images.githubusercontent.com/33210124/194319846-63bc5e01-8fe1-417b-8ab1-4432703c659d.gif" width="75%">
 </div>
 
-### 레벨 테스트
+#### 레벨 테스트
 - 6단계의 영단어 제시를 통해 나만의 영어 레벨 확인하기
 - `유럽연합 공통언어 표준등급(CEFR)`을 기준으로 영단어 레벨화
 <div>
@@ -71,7 +73,7 @@
 <img src="https://user-images.githubusercontent.com/33210124/193836121-90703a08-835c-479a-8873-65fad0025185.gif" width="75%">
 </div>
   
-### 뉴스 기사 목록
+#### 뉴스 기사 목록
 - `선별된 난이도`에 따른 기사 목록 제공 
 - `카테고리 대,소분류 필터`를 통한 필터 기사 제공
 - 모든 기사 목록 페이지에 `더보기` 구현
@@ -80,7 +82,7 @@
 <img src="https://user-images.githubusercontent.com/28249948/193998218-8a8c0019-7daa-4ee2-a434-5fb1a4a89b69.gif" width="75%"/>
 </div>
 
-### 나라별 뉴스 기사 목록
+#### 나라별 뉴스 기사 목록
 - 대분류 나라별 기사들을 `지구본 상의 마커와 리스트를 통해 시각화`하여 제공
 - 나라 선택시 해당 국가의 `상위 언급 키워드`를 오버레이와 해쉬태그 형태로 제공
 <div>
@@ -88,7 +90,7 @@
 <img src="https://user-images.githubusercontent.com/28249948/193992383-23330320-a394-4a17-87d8-a56acdba6097.gif" width="75%"/>
 </div>
 
-### 기사 상세 페이지
+#### 기사 상세 페이지
 - `번역`, `TTS`, `스크랩` 기능 제공
 - 기사 내 `최다 빈출 단어` 제공 및 저장 기능
 - 핵심 단어에서 `TF-IDF` 계산한 결과로 코사인 유사도 계산해 `관련 기사` 제공
@@ -97,7 +99,7 @@
 <img src="https://user-images.githubusercontent.com/33210124/194442222-dccfa564-4a64-4f55-a60e-5e57b72b1394.gif" width="20%">
 </div>
 
-### 영어 게임 - 스피드 퀴즈
+#### 영어 게임 - 스피드 퀴즈
 - 한 문제당 10초의 제한시간을 두고 영단어 맞추기
 - 처음 5초는 영어 설명으로 정답 유추
 - 이후 5초는 한글 뜻 추가하여 유추
@@ -109,7 +111,7 @@
 <img src="https://user-images.githubusercontent.com/33210124/193836073-8a17f443-9df4-4bf0-8d57-b3d59f920736.gif" width="20%">
 </div>
   
-### 영어 게임 - 낱말 퍼즐
+#### 영어 게임 - 낱말 퍼즐
 - `직접 구현한 낱말 퍼즐 생성 알고리즘`을 통해 게임판 생성
 - 영어 뜻으로 제공되는 힌트를 보고 가로와 세로 퍼즐 해결
 - 사용자 경험을 위해 엔터와 백스페이스를 통한 input 전환
@@ -119,7 +121,7 @@
 <img src="https://user-images.githubusercontent.com/33210124/193836127-ebcc135d-b4b4-4c54-9929-9184a4c600f4.gif" width="20%">
 </div>
 
-### 검색
+#### 검색
 - `키워드, 카테고리 필터, 기간, 레벨`에 따른 기사 검색 결과 제공
 - 검색 키워드가 어느 카테고리에 많이 발생했는지 `차트`로 시각적 효과 제공
 <div>
@@ -127,7 +129,7 @@
 <img src="https://user-images.githubusercontent.com/28249948/193999958-2ff920c2-3794-4fda-abb7-cf402ae0bd9c.gif" width="20%">
 </div>
 
-### 오늘의 단어
+#### 오늘의 단어
 - 사용자가 오늘 하루 알면 좋은 10개의 단어
 - 오늘 발행된 기사 중 `최다 빈출`된 단어 상위 10개를 뽑아 제공
 <div>
@@ -135,28 +137,33 @@
 <img src="https://user-images.githubusercontent.com/33210124/195591721-2a824603-5c87-4b8e-b944-53c367105376.gif" width="20%">
 </div>
 
-## ✨ 주요 기능
-
-- 주요 기능 :
-  - 사용자 난이도에 맞는 뉴스 기사 제공
-	- 사용자 맞춤 뉴스 기사 추천
-	- 데일리 컨텐츠 (오늘의 단어 & 오늘의 워드클라우드)
-	- 기사 내 최다 빈출 단어 제공
-	- 기사 번역 & TTS 기능 & 스크랩 & 단어 저장 & 관련 기사 제공
-	- 업적 달성을 통한 뱃지 수집으로 공부 흥미도 높임
-	- 영단어 활용한 게임 제공
-		- 낱말 퍼즐
-		- 스피드 퀴즈
-	- 레벨 테스트
+# ✨ 주요 기능
+- `다양한 뉴스 기사 목록 조회 및 검색 제공`
+	- 조회수가 높은 핫토픽 기사 목록 제공
+	- 사용자의 관심 카테고리, 레벨에 맞는 기사 추천
+	- 읽고있는 기사와 관련된 기사 추천
 	- 나라별 기사 목록 (지구본을 통한 시각적 효과 제공)
 	- 기사 목록 내 카테고리, 난이도별 필터 제공
 	- 기사 검색 서비스
-	- 다크 모드 & 모바일 뷰 지원
+- `난이도에 맞는 뉴스 기사 제공`
+	- 레벨테스트를 통해 유저 레벨 측정
+	- 기사별 포함 단어들의 난이도 분석을 통해 기사 레벨 부여
+- `데일리 컨텐츠`
+	- 오늘의 단어
+	- 오늘의 워드클라우드
+- `영어 기사 정보 제공`
+	- 기사 내용과 가장 연관된 핵심단어 목록 제공
+	- 기사 번역 & TTS 기능 & 스크랩 & 단어 저장 & 관련 기사 제공
+	- 업적 달성을 통한 뱃지 수집으로 공부 흥미도 높임
+- `영단어 활용한 게임 제공`
+	- 낱말 퍼즐
+	- 스피드 퀴즈
+- `사용자 친화적 UI`
+	- 다크 모드 지원
+	- 모바일 뷰 지원
 
-## 🖥️ 개발 환경
-
-
-**Management Tool**
+# 🖥️ 개발 환경
+**🔨 Management Tool**
 - 형상 관리 : Gitlab
 - 이슈 관리 : Jira
 - 커뮤니케이션 : Mattermost, Webex, Notion
@@ -241,53 +248,51 @@
 - MySQL Workbench `8.0.29`
 - VSCode `1.69.2`
 
-## 💫 시스템 아키텍처
+# 💫 시스템 아키텍처
 
 <img src="https://user-images.githubusercontent.com/33210124/194321053-3df8a037-3e79-4702-8469-fdffaf657527.png" alt="시스템 아키텍처" width="80%">
 
 
-## ✨ 기술 특이점
+# ✨ 기술 특이점
 - `난이도별` 뉴스 기사 제공
-- 사용자 관심 카테고리&레벨 기반으로 `맞춤 뉴스` 제공
+- 사용자 관심 카테고리 & 레벨 기반으로 `맞춤 뉴스` 제공
 - `다크모드 & 모바일` 지원
 - 나라별 기사 목록 지구본 시각화
 - CEFR을 통한 레벨테스트
 - 게임 알고리즘 직접 구현
 - 기사 난이도 분석
    - CEFR을 기반으로 난이도 계산해 지정
-- **하둡**
+- [6개의 해외뉴스 사이트에서 매일 기사 수집](https://github.com/Dabisix/NEWSTUDY/tree/master/crawling/README.md)
+- **[하둡을 사용한 분산 처리](https://github.com/Dabisix/NEWSTUDY/tree/master/hadoop/README.md)**
 	- 클러스터 서버에서 `스파크`를 사용하여 뉴스 기사들의 단어에 대한 TF-IDF를 계산
 		- 4번의 맵핑과 3번의 리듀스 과정 진행
-  - 데일리 컨텐츠
-     - 오늘의 단어 : 당일 수집된 전체 기사 내용 `워드카운트`
-     - 데일리 워드클라우드&나라별 핵심 키워드 : 카테고리별 `빈도수 높은 k개` 선정
-  - 기사 상세 핵심 단어 : 기사별 `워드 카운트` 수행 -> `TF-IDF` 계산 후 선정
-  - 관련 기사 목록 : 핵심단어 추출한 결과로 다른 기사와 `코사인 유사도` 계산 
+	- 데일리 컨텐츠
+	- 오늘의 단어 : 당일 수집된 전체 기사 내용 `워드카운트`
+	- 데일리 워드클라우드 & 나라별 핵심 키워드 : 카테고리별 `빈도수 높은 k개` 선정
+  	- 기사 상세 핵심 단어 : 기사별 `워드 카운트` 수행 -> `TF-IDF` 계산 후 선정
+ 	- 관련 기사 목록 : 핵심단어 추출한 결과로 다른 기사와 `코사인 유사도` 계산 
 
-## 💭 요구사항 정의 및 기능 명세
+# 📂 기획 및 설계 산출물
 
+### [💭 요구사항 정의 및 기능 명세](https://www.notion.so/newstudy7/e6ffdd72d60d428c90bf8be329c8feeb)
 
 <img width="100%" alt="요구사항 정의 및 기능 명세" src="https://user-images.githubusercontent.com/33210124/192975077-963176ec-93da-4488-97d1-301f60756b59.png"><br>
-[요구사항 정의 및 기능 명세](https://www.notion.so/newstudy7/e6ffdd72d60d428c90bf8be329c8feeb)
 
-## 🎨 화면 설계서
-
+### [🎨 화면 설계서](https://www.figma.com/file/0O6Jf104BaADRs1zbJ6QJl/%EB%89%B4%EC%8A%A4%ED%84%B0%EB%94%94?node-id=0%3A1)
 
 <img width="100%" alt="화면설계서" src="https://user-images.githubusercontent.com/33210124/192977903-ae783f89-9ea1-4635-9c6e-62bfad14cf00.png"><br>
-[화면 설계서](https://www.figma.com/file/0O6Jf104BaADRs1zbJ6QJl/%EB%89%B4%EC%8A%A4%ED%84%B0%EB%94%94?node-id=0%3A1)
 
-## ✨컨벤션
-
-
-[Conventions](https://www.notion.so/Conventions-76cebaa0105c4305842d111f3d58352a)
-
-## ✨ ER Diagram
+### [✨ ER Diagram](https://www.erdcloud.com/d/jmYrXGNhwenbvKCCZ)
 
 <img width="100%" alt="erd" src="https://user-images.githubusercontent.com/33210124/194223136-4c18ae2a-445b-4813-a124-e5cef80cf9cc.png" ><br>
 
 
+# ✨ Conventions 
+NEWSTUDY 팀원들의 원활한 `Gitlab`, `Jira` 사용을 위한 [✨컨벤션✨](https://www.notion.so/Conventions-76cebaa0105c4305842d111f3d58352a) 입니다 :)
 
-## 💞 NEWSTUDY를 개발한 싸피그룹영어토익반 팀원을 소개합니다!
+
+# 💞 팀원 소개
+##### ❤️‍🔥 NEWSTUDY를 개발한 `싸피그룹 영어토익반` 팀원들을 소개합니다!
 
 
 
