@@ -262,8 +262,8 @@
 - 게임 알고리즘 직접 구현
 - 기사 난이도 분석
    - CEFR을 기반으로 난이도 계산해 지정
-- [6개의 해외뉴스 사이트에서 매일 기사 수집](https://github.com/Dabisix/NEWSTUDY/tree/master/crawling/README.md)
-- **[하둡을 사용한 분산 처리](https://github.com/Dabisix/NEWSTUDY/tree/master/hadoop/README.md)**
+- [6개의 해외뉴스 사이트에서 매일 기사 수집](https://github.com/Dabisix/NEWSTUDY/tree/master/crawling)
+- **[하둡을 사용한 분산 처리](https://github.com/Dabisix/NEWSTUDY/tree/master/hadoop)**
 	- 클러스터 서버에서 `스파크`를 사용하여 뉴스 기사들의 단어에 대한 TF-IDF를 계산
 		- 4번의 맵핑과 3번의 리듀스 과정 진행
 	- 데일리 컨텐츠
