@@ -10,12 +10,15 @@
  8. [Conventions](#-conventions)
  9. [팀원 소개](#-팀원-소개)
 
+<br>
 
 # 📰 Overview
 > 난이도 맞춤형 해외 뉴스 기사를 통한 영어 공부 웹 서비스
 ##### 🏆 삼성 청년 SW 아카데미 7기 2학기 특화 프로젝트 대전 2반 최우수상 [[발표영상]](https://youtu.be/bFuVDd9RNlY)
 ##### 🏆 삼성 청년 SW 아카데미 7기 2학기 특화 프로젝트 UCC경진대회 입상 [[UCC]](https://www.youtube.com/watch?v=7CpzMz1BLAw&ab_channel=yoonseokhan) 
 ##### ✨ NEWSTUDY의 모토 - `폼생폼사, 간살간죽`
+
+<br>
 
 # 👀 서비스 화면
 > ✨ 모든 페이지 `다크모드`, `모바일(아이폰 12 Pro 기준 max-width:480px)` 지원
@@ -137,6 +140,8 @@
 <img src="https://user-images.githubusercontent.com/33210124/195591721-2a824603-5c87-4b8e-b944-53c367105376.gif" width="20%">
 </div>
 
+<br>
+
 # ✨ 주요 기능
 - `다양한 뉴스 기사 목록 조회 및 검색 제공`
 	- 조회수가 높은 핫토픽 기사 목록 제공
@@ -161,6 +166,8 @@
 - `사용자 친화적 UI`
 	- 다크 모드 지원
 	- 모바일 뷰 지원
+
+<br>
 
 # 🖥️ 개발 환경
 **🔨 Management Tool**
@@ -248,10 +255,13 @@
 - MySQL Workbench `8.0.29`
 - VSCode `1.69.2`
 
+<br>
+
 # 💫 시스템 아키텍처
 
 <img src="https://user-images.githubusercontent.com/33210124/194321053-3df8a037-3e79-4702-8469-fdffaf657527.png" alt="시스템 아키텍처" width="80%">
 
+<br>
 
 # ✨ 기술 특이점
 - `난이도별` 뉴스 기사 제공
@@ -272,6 +282,8 @@
   	- 기사 상세 핵심 단어 : 기사별 `워드 카운트` 수행 -> `TF-IDF` 계산 후 선정
  	- 관련 기사 목록 : 핵심단어 추출한 결과로 다른 기사와 `코사인 유사도` 계산 
 
+<br>
+
 # 📂 기획 및 설계 산출물
 
 ### [💭 요구사항 정의 및 기능 명세](https://www.notion.so/newstudy7/e6ffdd72d60d428c90bf8be329c8feeb)
@@ -286,10 +298,12 @@
 
 <img width="100%" alt="erd" src="https://user-images.githubusercontent.com/33210124/194223136-4c18ae2a-445b-4813-a124-e5cef80cf9cc.png" ><br>
 
+<br>
 
 # ✨ Conventions 
 NEWSTUDY 팀원들의 원활한 `Gitlab`, `Jira` 사용을 위한 [✨컨벤션✨](https://www.notion.so/Conventions-76cebaa0105c4305842d111f3d58352a) 입니다 :)
 
+<br>
 
 # 💞 팀원 소개
 ##### ❤️‍🔥 NEWSTUDY를 개발한 `싸피그룹 영어토익반` 팀원들을 소개합니다!
@@ -301,7 +315,7 @@ NEWSTUDY 팀원들의 원활한 `Gitlab`, `Jira` 사용을 위한 [✨컨벤션�
 | <img src="https://avatars.githubusercontent.com/u/28249948?v=4" width="800"> | <img src="https://avatars.githubusercontent.com/u/81076792?v=4" width="800"> | <img src="https://avatars.githubusercontent.com/u/33210124?v=4" width="800"> | <img src="https://avatars.githubusercontent.com/u/80896077?v=4" width="800"> | <img src="https://avatars.githubusercontent.com/u/91049936?v=4" width="800"> | <img src="https://avatars.githubusercontent.com/u/45987276?v=4" width="800"> |
 |Leader & Frontend|Frontend|Frontend|Backend|Backend|Backend|
 
-## 😃 팀원 역할
+### 😃 팀원 역할
 
 - **한윤석**
   - 팀장, 온보딩, 게임, 기사 상세, 나라별 기사
